@@ -265,6 +265,8 @@
 "telegramTokenDesc" = "Необходимо получить токен у менеджера ботов Telegram @botfather"
 "telegramProxy" = "Прокси Socks5"
 "telegramProxyDesc" = "Если для подключения к Telegram вам нужен прокси Socks5. Настройте его параметры согласно руководству."
+"telegramAPIServer" = "API-сервер Telegram"
+"telegramAPIServerDesc" = "Используемый API-сервер Telegram. Оставьте пустым, чтобы использовать сервер по умолчанию."
 "telegramChatId" = "Идентификатор Telegram администратора бота"
 "telegramChatIdDesc" = "Один или несколько идентификаторов администратора бота. Чтобы получить идентификатор, используйте @userinfobot или команду '/id' в боте."
 "telegramNotifyTime" = "Частота уведомлений бота Telegram"
@@ -483,8 +485,12 @@
 "status" = "✅ Бот работает нормально!"
 "usage" = "❗ Пожалуйста, укажите текст для поиска!"
 "getID" = "🆔 Ваш ID: <code>{{ .ID }}</code>"
-"helpAdminCommands" = "Для поиска электронной почты клиента:\r\n<code>/usage [Email]</code>\r\n\r\nДля поиска входящих (со статистикой клиента):\r\n<code>/inbound [Примечание]</code>\r\n\r\nID чата Telegram:\r\n<code>/id</code>"
+"helpAdminCommands" = "Для перезапуска Xray Core:\r\n<code>/restart force</code>\r\n\r\nДля поиска электронной почты клиента:\r\n<code>/usage [Email]</code>\r\n\r\nДля поиска входящих (со статистикой клиента):\r\n<code>/inbound [Примечание]</code>\r\n\r\nID чата Telegram:\r\n<code>/id</code>"
 "helpClientCommands" = "Для поиска статистики используйте следующую команду:\r\n<code>/usage [Email]</code>\r\n\r\nID чата Telegram:\r\n<code>/id</code>"
+"restartUsage" = "\r\n\r\n<code>/restart force</code>"
+"restartSuccess" = "✅ Операция успешно завершена!"
+"restartFailed" = "❗ Ошибка в операции.\r\n\r\n<code>Ошибка: {{ .Error }}</code>."
+"xrayNotRunning" = "❗ Xray Core не запущен."
 
 [tgbot.messages]
 "cpuThreshold" = "🔴 Загрузка процессора составляет {{ .Percent }}%, что превышает пороговое значение {{ .Threshold }}%"
