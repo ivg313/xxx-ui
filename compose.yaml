@@ -1,0 +1,12 @@
+services:
+  xxx-ui:
+    build: .
+    container_name: xxx-ui
+    environment:
+      X_UI_ENABLE_FAIL2BAN: "true"
+    volumes:
+      - ./db/:/etc/x-ui/
+      - ./cert/:/root/cert/
+    tty: true
+    network_mode: host
+    restart: unless-stopped
