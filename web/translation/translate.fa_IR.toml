@@ -128,6 +128,7 @@
 "totalData" = "داده‌های کل"
 "sent" = "ارسال شده"
 "received" = "دریافت شده"
+"documentation" = "مستندات"
 "xraySwitchVersionDialog" = "آیا واقعاً می‌خواهید نسخه Xray را تغییر دهید؟"
 "xraySwitchVersionDialogDesc" = "این کار نسخه Xray را به #version# تغییر می‌دهد."
 "xraySwitchVersionPopover" = "Xray با موفقیت به‌روز شد"
@@ -590,6 +591,10 @@
 "restartSuccess" = "✅ عملیات با موفقیت انجام شد!"
 "restartFailed" = "❗ خطا در عملیات.\r\n\r\n<code>خطا: {{ .Error }}</code>."
 "xrayNotRunning" = "❗ Xray Core در حال اجرا نیست."
+"startDesc" = "نمایش منوی اصلی"
+"helpDesc" = "راهنمای ربات"
+"statusDesc" = "بررسی وضعیت ربات"
+"idDesc" = "نمایش شناسه تلگرام شما"
 
 [tgbot.messages]
 "cpuThreshold" = "🔴 بار ‌پردازنده {{ .Percent }}% بیشتر از آستانه است {{ .Threshold }}%"

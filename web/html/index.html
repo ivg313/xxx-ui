@@ -302,7 +302,7 @@
                 <a-col :sm="24" :lg="12">
                   <a-card title='{{ i18n "pages.index.ipAddresses" }}' hoverable>
                     <template #extra>
-                      <a-tooltip>
+                      <a-tooltip :placement="isMobile ? 'topRight' : 'top'">
                         <template #title>
                           {{ i18n "pages.index.toggleIpVisibility" }}
                         </template>

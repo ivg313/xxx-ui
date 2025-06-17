@@ -128,6 +128,7 @@
 "totalData" = "Total data"
 "sent" = "Dikirim"
 "received" = "Diterima"
+"documentation" = "Dokumentasi"
 "xraySwitchVersionDialog" = "Apakah Anda yakin ingin mengubah versi Xray?"
 "xraySwitchVersionDialogDesc" = "Ini akan mengubah versi Xray ke #version#."
 "xraySwitchVersionPopover" = "Xray berhasil diperbarui"
@@ -590,6 +591,10 @@
 "restartSuccess" = "✅ Operasi berhasil!"
 "restartFailed" = "❗ Kesalahan dalam operasi.\r\n\r\n<code>Error: {{ .Error }}</code>."
 "xrayNotRunning" = "❗ Xray Core tidak berjalan."
+"startDesc" = "Tampilkan menu utama"
+"helpDesc" = "Bantuan bot"
+"statusDesc" = "Periksa status bot"
+"idDesc" = "Tampilkan ID Telegram Anda"
 
 [tgbot.messages]
 "cpuThreshold" = "🔴 Beban CPU {{ .Percent }}% melebihi batas {{ .Threshold }}%"

@@ -128,6 +128,7 @@
 "totalData" = "総データ量"
 "sent" = "送信"
 "received" = "受信"
+"documentation" = "ドキュメント"
 "xraySwitchVersionDialog" = "Xrayのバージョンを本当に変更しますか？"
 "xraySwitchVersionDialogDesc" = "Xrayのバージョンが#version#に変更されます。"
 "xraySwitchVersionPopover" = "Xrayの更新が成功しました"
@@ -590,6 +591,10 @@
 "restartSuccess" = "✅ 操作成功！"
 "restartFailed" = "❗ 操作エラー。\r\n\r\n<code>エラー: {{ .Error }}</code>"
 "xrayNotRunning" = "❗ Xray Core は動作していません。"
+"startDesc" = "メインメニューを表示"
+"helpDesc" = "ボットのヘルプ"
+"statusDesc" = "ボットの状態を確認"
+"idDesc" = "Telegram IDを表示"
 
 [tgbot.messages]
 "cpuThreshold" = "🔴 CPU使用率は{{ .Percent }}%、しきい値{{ .Threshold }}%を超えました"

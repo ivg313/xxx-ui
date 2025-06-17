@@ -128,6 +128,7 @@
 "totalData" = "Datos totales"
 "sent" = "Enviado"
 "received" = "Recibido"
+"documentation" = "Documentación"
 "xraySwitchVersionDialog" = "¿Realmente deseas cambiar la versión de Xray?"
 "xraySwitchVersionDialogDesc" = "Esto cambiará la versión de Xray a #version#."
 "xraySwitchVersionPopover" = "Xray se actualizó correctamente"
@@ -590,6 +591,10 @@
 "restartSuccess" = "✅ ¡Operación exitosa!"
 "restartFailed" = "❗ Error en la operación.\r\n\r\n<code>Error: {{ .Error }}</code>."
 "xrayNotRunning" = "❗ Xray Core no está en ejecución."
+"startDesc" = "Mostrar el menú principal"
+"helpDesc" = "Ayuda del bot"
+"statusDesc" = "Comprobar el estado del bot"
+"idDesc" = "Mostrar tu ID de Telegram"
 
 [tgbot.messages]
 "cpuThreshold" = "🔴 El uso de CPU {{ .Percent }}% es mayor que el umbral {{ .Threshold }}%"
