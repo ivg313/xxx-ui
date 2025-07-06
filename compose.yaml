@@ -7,7 +7,9 @@ services:
       - db:/etc/x-ui/
       - cert:/root/cert/
     tty: true
-    network_mode: host
+    ports:
+      - "127.0.0.1:2053:2053"
+      - "443:443"
     restart: unless-stopped
 
 volumes:
